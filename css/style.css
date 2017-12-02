@@ -1,0 +1,115 @@
+body {
+  font-family:  'Lato', sans-serif;
+}
+
+.main-h2 {
+  font-size: 36px;
+}
+
+.main-h3 {
+  font-size: 30px;
+}
+
+.logo-img {
+  width: 100px;
+}
+
+.main-menu {
+  background: none;
+  border: none;
+  padding-top: 3%; 
+  float: right;
+}
+
+.main-menu .navbar-nav>.active>a,
+.main-menu .navbar-nav>.active>a:hover {
+  border-bottom: 3px solid #0072bb;
+  background-color: transparent;
+  padding-bottom: 4px;
+}
+
+.main-menu .navbar-nav>.open>a,
+.main-menu .navbar-nav>.open>a:hover,
+.main-menu .navbar-nav>.open>a:focus {
+  background-color: transparent;
+}
+
+.menu-text {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.padding-space {
+  padding-bottom: 20px;
+}
+
+.banner-btn {
+  font-size: 15px;
+  text-transform: uppercase;
+  background: #fff;
+  color: #0072bb;
+}
+
+.banner-img {
+  max-height: 600px;
+  width: 100%;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 61%;
+  bottom: 26%;
+  background: #0072bb;
+  opacity: 0.7;
+  width: 60%;
+}
+
+.main-color {
+  color: #0072bb;
+}
+
+.main-p {
+  line-height: 2em;
+  font-size: 16px;
+  color: #808080;
+}
+
+.inside-separator {
+  border: 1px solid #DCDCDC;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.top-padding {
+  padding-top: 20px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.card-btn {
+  font-size: 15px;
+  text-transform: uppercase;
+  float: left;
+  background: #0072bb;
+  color: #fff;
+}
+
+.card-p {
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 992px) {
+
+  .card-p {
+    width: 90%;
+    text-align: justify;
+  }
+
+  .card-column {
+    position: relative;
+    top: 30px;
+  }
+}
